@@ -21,7 +21,7 @@ This project focuses on predicting the price of used cars based on various featu
 ## Dataset
 
 The dataset used is available on Kaggle:
-- [Used Car Data - India](https://www.kaggle.com/datasets/sarwesh2000/car-data)
+- [Used Car Data - India](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
 
 
 ## Goals
