@@ -10,8 +10,6 @@ Predicting the selling price of used cars based on various features using machin
 - [Goals](#goals)
 - [Tools & Technologies](#tools--technologies)
 - [Approach](#approach)
-- [Results](#results)
-- [Next Steps](#next-steps)
 - [Author](#author)
 
 
