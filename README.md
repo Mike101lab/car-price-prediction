@@ -1,65 +1,79 @@
 # Car Price Prediction
 
-Predicting the selling price of used cars based on various features using machine learning models.
+A machine learning project to predict the selling price of used cars based on various attributes such as mileage, model year, fuel type, transmission, and accident history. This project leverages data-driven techniques to deliver insights for buyers, sellers, and auto-market stakeholders.
 
 
-##  Table of Contents
+## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Goals](#goals)
-- [Tools & Technologies](#tools--technologies)
-- [Approach](#approach)
-- [Author](#author)
+- [Project Overview](#project-overview)  
+- [Dataset](#dataset)  
+- [Goals](#goals)  
+- [Tools & Technologies](#tools--technologies)  
+- [Approach](#approach)  
+- [Author](#author)  
 
 
 ## Project Overview
 
-This project focuses on predicting the price of used cars based on various features such as mileage, fuel type, seller type, car age, and more. It’s built as a weekend ML project to strengthen exploratory data analysis, feature engineering, and regression modeling skills.
+This project aims to analyze and predict the price of used cars using machine learning algorithms. By conducting thorough exploratory data analysis (EDA), engineering meaningful features, and building regression models, we provide insights into key factors that influence car prices. This project not only serves as a portfolio piece but also strengthens core data science skills such as data cleaning, visualization, and model building.
 
 
 ## Dataset
 
-The dataset used is available on Kaggle:
-- [Used Car Data - India](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
+The dataset used in this project is sourced from Kaggle and contains information on used cars sold in India. It includes features such as brand, model year, mileage, fuel type, engine details, transmission, accident history, and price.
+
+📎 [Used Car Data - India (Kaggle)](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
 
 
 ## Goals
 
-- Perform Exploratory Data Analysis (EDA) on used car data.
-- Build regression models to predict car prices.
-- Identify the most important features affecting car price.
-- Deploy a simple model using Streamlit (optional bonus).
+- Perform detailed EDA to uncover insights from the dataset.  
+- Engineer new features (e.g., car age, total mileage).  
+- Handle outliers and clean anomalies in data.  
+- Train and evaluate regression models to predict car prices.  
+- Identify the most important variables influencing pricing.
 
 
 ## Tools & Technologies
 
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- XGBoost (optional)
-- Streamlit (for deployment)
+- **Programming Language**: Python  
+- **Libraries**: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, XGBoost  
+- **Modeling Techniques**: Linear Regression, Random Forest, XGBoost Regressor  
 
 
 ## Approach
 
-1. **Data Understanding** – Load and explore the dataset.
-2. **Data Preparation** – Clean data, handle missing values, encode categories.
-3. **Feature Engineering** – Create new features like car age.
-4. **Modeling** – Train regression models (Linear Regression, Random Forest, etc.).
-5. **Evaluation** – Assess model performance using RMSE, R², etc.
-6. Deploy - Build and deploy a Streamlit web app.
+1. **Data Understanding**  
+   - Load and inspect the structure and types of the data.  
+   - Understand relationships and data distributions.  
+
+2. **Data Preparation**  
+   - Handle missing values and drop duplicates.  
+   - Convert columns to appropriate data types.  
+   - Drop irrelevant features such as engine configuration if needed.  
+
+3. **Feature Engineering**  
+   - Create new variables such as `car_age`, and binary flags for accidents.  
+   - Clean and transform categorical and text data.  
+
+4. **Exploratory Data Analysis (EDA)**  
+   - Univariate, bivariate, and multivariate analysis.  
+   - Visual exploration of how features influence price.  
+   - Detection and treatment of outliers.  
+
+5. **Modeling**  
+   - Train multiple regression models.  
+   - Apply scaling, encoding, and pipeline transformations.  
+   - Perform hyperparameter tuning using RandomizedSearchCV.  
+
+6. **Evaluation**  
+   - Use metrics like RMSE, MAE, and R² to assess model performance.  
+   - Compare different models and select the best performer.
 
 
-
-## 👤 Author
+## Author
 
 **Michael Muthui Gatero**  
-- 📍 Nairobi, Kenya  
-- 📧 gateromichael@gmail.com  
-- 📞 +254 115 559110  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/michaelgatero/) (optional if you want to add it)
-
----
-
+📧 gateromichael@gmail.com  
+📞 +254 115 559110  
+🌐 [LinkedIn]((https://www.linkedin.com/in/michael-gatero-915181311/)) 
